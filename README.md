@@ -1,35 +1,26 @@
 # vue3-cms
 
-This template should help get you started developing with Vue 3 in Vite.
+[作品連結](https://ching-code.github.io/vue3-cms/)
 
-## Recommended IDE Setup
+## 介紹
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+使用技術:
 
-## Customize configuration
+- vue3
+- pinia
+- vue-router
+- element-plus 組件庫
+- axios
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 學習經驗
 
-## Project Setup
+- 熟悉 vue3 composition api 寫法
+- 熟悉 pinia 和 vuex 不同和使用
+- element-plus 組件庫的表單校驗、表單處理
+- FileReader 上傳圖片的處理
 
-```sh
-pnpm install
-```
+## 技術總結
 
-### Compile and Hot-Reload for Development
+根據 element-plus 文檔能把表單驗證和處理很快的處理好，需要注意照著文檔提供的 api 寫法
 
-```sh
-pnpm dev
-```
-
-### Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+部屬到 github pages 出現了讀取不到 js 檔案的錯誤，詢問 ai 後得知解決辦法是在根目錄(dist)加上 `.nojekyll` 空白檔案讓 github pages 不會省略 _ 開頭檔名的檔案
